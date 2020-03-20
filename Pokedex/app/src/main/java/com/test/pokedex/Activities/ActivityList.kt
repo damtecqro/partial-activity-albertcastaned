@@ -3,7 +3,6 @@ package com.test.pokedex.Activities
 import android.content.Context
 import android.os.Bundle
 import android.util.Log
-import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -11,7 +10,6 @@ import com.google.gson.JsonArray
 import com.koushikdutta.ion.Ion
 import com.test.pokedex.Adapters.AdapterList
 import com.test.pokedex.R
-
 import kotlinx.android.synthetic.main.activity_list.*
 
 class ActivityList : AppCompatActivity() {
@@ -28,22 +26,8 @@ class ActivityList : AppCompatActivity() {
         setContentView(R.layout.activity_list)
         setSupportActionBar(toolbar)
 
-        initializeCoponents()
-        initializeListeners()
         initializeData()
 
-
-        fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
-        }
-    }
-
-    fun initializeCoponents(){
-
-    }
-
-    fun initializeListeners(){
 
     }
 
