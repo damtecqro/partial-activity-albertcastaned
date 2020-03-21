@@ -1,0 +1,8 @@
+Alberto Castañeda Arana A01250647
+
+What made it easier for you to implement the view?
+- Once I learned how to use the JSON parser, retrieving the data needed for the view was not as difficult as I thought it would be.
+
+What made it difficult for you to implement the view?
+- For me the most difficult part of implementing the view was the transition between the list view and the detail view, since I had problems retrieving the number/position of the clicked item in the list and passing that to a Intent so you can use the detail view.
+
